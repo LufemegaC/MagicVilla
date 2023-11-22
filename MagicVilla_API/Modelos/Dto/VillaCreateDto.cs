@@ -2,10 +2,10 @@
 
 namespace MagicVilla_API.Modelos.Dto
 {
-    public class VillaDto
+    public class VillaCreateDto
     {
-        [Key] 
-        public int Id { get; set; }
+        /*[Key] 
+        public int Id { get; set; }*/
         [Required]
         [MaxLength(30)]
         public string Nombre { get; set; }
